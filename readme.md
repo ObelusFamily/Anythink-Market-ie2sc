@@ -10,4 +10,14 @@ When implementing a new feature or fixing a bug, please create a new pull reques
 
 ## First setup
 
-**[TODO 05/01/2018 @vanessa-cooper]:** _It's been a while since anyone ran a fresh copy of this repo. I think it's worth documenting the steps needed to install and run the repo on a new machine?_
+Download and install Docker (https://docs.docker.com/get-docker/)and start the service on your machine - using the desktop app or through the command line. 
+
+Once Docker has started (this can take a minute) cd into the project directory and enter the command: docker-compose up
+
+This will take a few minutes while Docker sets up and starts a local development server. 
+
+You can check the backend server is running by pointing you browser at the following url: http://localhost:3000/api/ping
+
+Then, if all is well, head to: http://localhost:3001/register and create yourself a front-end login. 
+
+That's it! You're ready to go!
